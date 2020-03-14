@@ -43,7 +43,7 @@ class User extends \yii\db\ActiveRecord implements \yii\web\IdentityInterface
         return [
             'id' => 'ID',
             'username' => 'Username',
-            'password' => 'Password',
+            'password' => 'Passwoffffrd',
             'auth_key' => 'Auth Key',
             'access_token' => 'Access Token',
         ];

@@ -40,7 +40,11 @@ $this->params['breadcrumbs'][] = $this->title;
 
         <div class="row">
             <div class="col-lg-5">
-
+            <?= Html::dropDownList('category', [$value], [0=>'normal', 1=>'todo'], [
+                    'class' => 'form-control myDropdown',
+                    'id'=>'myDropdown',
+                    'onchange'=>'window.location="contact?value="+$(this).val()'    
+            ]) ?>
                 <?php $form = ActiveForm::begin(['id' => 'contact-form']); ?>
 
                     <?= $form->field($model, 'name')->textInput(['autofocus' => true]) ?>

@@ -68,7 +68,7 @@ class Article extends \yii\db\ActiveRecord
         return [
             'id' => 'ID',
             'title' => 'Title',
-            'slug' => 'Slug',
+            'slug' => 'Slu--g',
             'body' => 'Body',
             'created_at' => 'Created At',
             'updated_at' => 'Updated At',

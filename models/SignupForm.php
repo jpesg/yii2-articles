@@ -8,7 +8,7 @@ use yii\base\Model;
 class SignUpForm extends Model{
     public $username;
     public $password;
-public $password_repeat;
+    public $password_repeat;
 
 public function rules(){
     return [
